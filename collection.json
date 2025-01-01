@@ -1,0 +1,16 @@
+{
+    "a": [
+        {
+            "movie_id": 30,
+            "k_durum": "Bilinmiyor",
+            "k_puan": "Belirtilmemis",
+            "k_not": "Not yok"
+        },
+        {
+            "movie_id": 8,
+            "k_durum": "Izlenecek",
+            "k_puan": "1",
+            "k_not": "aaaaaaaaaaaa"
+        }
+    ]
+}
