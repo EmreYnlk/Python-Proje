@@ -10,7 +10,7 @@ root.title("Film Listeleme Uygulamasi")
 root.geometry("800x600")
 root.configure(bg="#2c3e50")
 
-baslik_label = tk.Label(root, text="Film Listeleme Uygulamasi", font=("Arial", 18, "bold"), fg="#ecf0f1", bg="#2c3e50")
+baslik_label = tk.Label(root, text="Film Listeleme Uygulamasi", font=("Arial", 18, "bold"), fg="#ffffff", bg="#2c3e50")
 baslik_label.pack(pady=20)
 
 giris_frame = tk.Frame(root, bg="#34495e", bd=5)
@@ -21,7 +21,7 @@ kullanici_adi_label.grid(row=0, column=0, pady=10, padx=20, sticky="nsew")
 kullanici_adi_entry = ttk.Entry(giris_frame, font=("Arial", 12))
 kullanici_adi_entry.grid(row=0, column=1, pady=10, padx=10, sticky="nsew")
 
-sifre_label = tk.Label(giris_frame, text="Sifre:", font=("Arial", 14), fg="#ecf0f1", bg="#34495e")
+sifre_label = tk.Label(giris_frame, text="Sifre:", font=("Arial", 14), fg="#ffffff", bg="#34495e")
 sifre_label.grid(row=1, column=0, pady=10, padx=20, sticky="nsew")
 sifre_entry = ttk.Entry(giris_frame, font=("Arial", 12), show="*")
 sifre_entry.grid(row=1, column=1, pady=10, padx=10, sticky="nsew")
@@ -52,15 +52,15 @@ def hesap_olustur_ekrani():
     kayit_frame = tk.Frame(root, bg="#34495e", bd=5)
     kayit_frame.pack(pady=20, padx=20, fill="both", expand=True)
 
-    tk.Label(kayit_frame, text="Kullanici adi:", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=0, column=0, pady=10, padx=10, sticky="e")
+    tk.Label(kayit_frame, text="Kullanici adi:", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=0, column=0, pady=10, padx=10, sticky="e")
     yeni_kadi_entry = ttk.Entry(kayit_frame, font=("Arial", 12))
     yeni_kadi_entry.grid(row=0, column=1, pady=10, padx=10, sticky="ew")
 
-    tk.Label(kayit_frame, text="Sifre:", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=1, column=0, pady=10, padx=10, sticky="e")
+    tk.Label(kayit_frame, text="Sifre:", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=1, column=0, pady=10, padx=10, sticky="e")
     yeni_sifre_entry = ttk.Entry(kayit_frame, font=("Arial", 12), show="*")
     yeni_sifre_entry.grid(row=1, column=1, pady=10, padx=10, sticky="ew")
 
-    tk.Label(kayit_frame, text="En sevdiginiz hayvan:", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=2, column=0, pady=10, padx=10, sticky="e")
+    tk.Label(kayit_frame, text="En sevdiginiz hayvan:", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=2, column=0, pady=10, padx=10, sticky="e")
     yeni_hayvan_entry = ttk.Entry(kayit_frame, font=("Arial", 12))
     yeni_hayvan_entry.grid(row=2, column=1, pady=10, padx=10, sticky="ew")
 
@@ -104,11 +104,11 @@ def sifremi_unuttum_ekrani():
     sifre_unuttum_frame = tk.Frame(root, bg="#34495e", bd=5)
     sifre_unuttum_frame.pack(pady=20, padx=20, fill="both", expand=True)
 
-    tk.Label(sifre_unuttum_frame, text="Kullanici adi:", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=0, column=0, pady=10, padx=10, sticky="e")
+    tk.Label(sifre_unuttum_frame, text="Kullanici adi:", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=0, column=0, pady=10, padx=10, sticky="e")
     kadi_fp_entry = ttk.Entry(sifre_unuttum_frame, font=("Arial", 12))
     kadi_fp_entry.grid(row=0, column=1, pady=10, padx=10, sticky="ew")
 
-    tk.Label(sifre_unuttum_frame, text="En sevdiginiz hayvan:", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=1, column=0, pady=10, padx=10, sticky="e")
+    tk.Label(sifre_unuttum_frame, text="En sevdiginiz hayvan:", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=1, column=0, pady=10, padx=10, sticky="e")
     hayvan_fp_entry = ttk.Entry(sifre_unuttum_frame, font=("Arial", 12))
     hayvan_fp_entry.grid(row=1, column=1, pady=10, padx=10, sticky="ew")
 
@@ -125,11 +125,11 @@ def sifremi_unuttum_ekrani():
             sifre_sifirla_frame = tk.Frame(root, bg="#34495e", bd=5)
             sifre_sifirla_frame.pack(pady=20, padx=20, fill="both", expand=True)
 
-            tk.Label(sifre_sifirla_frame, text="Yeni sifre:", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=0, column=0, pady=10, padx=10, sticky="e")
+            tk.Label(sifre_sifirla_frame, text="Yeni sifre:", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=0, column=0, pady=10, padx=10, sticky="e")
             yeni_s1_entry = ttk.Entry(sifre_sifirla_frame, font=("Arial", 12), show="*")
             yeni_s1_entry.grid(row=0, column=1, pady=10, padx=10, sticky="ew")
 
-            tk.Label(sifre_sifirla_frame, text="Yeni sifre (tekrar):", font=("Arial", 12), fg="#ecf0f1", bg="#34495e").grid(row=1, column=0, pady=10, padx=10, sticky="e")
+            tk.Label(sifre_sifirla_frame, text="Yeni sifre (tekrar):", font=("Arial", 12), fg="#ffffff", bg="#34495e").grid(row=1, column=0, pady=10, padx=10, sticky="e")
             yeni_s2_entry = ttk.Entry(sifre_sifirla_frame, font=("Arial", 12), show="*")
             yeni_s2_entry.grid(row=1, column=1, pady=10, padx=10, sticky="ew")
 
@@ -193,7 +193,7 @@ def eserlerim_ekrani():
     geri_buton = ttk.Button(ust_frame, text="Ana menuye don", command=ana_menuye_don)
     geri_buton.grid(row=0, column=0, sticky="w", padx=5)
 
-    baslik_eserler_label = tk.Label(ust_frame, text="Eserlerim", font=("Arial", 18, "bold"), fg="#ecf0f1", bg="#34495e")
+    baslik_eserler_label = tk.Label(ust_frame, text="Eserlerim", font=("Arial", 18, "bold"), fg="#ffffff", bg="#34495e")
     baslik_eserler_label.grid(row=0, column=1, pady=5)
 
     kolonlar = ("adi","k_durum","IMBDpuani","turu","k_puan","k_not","yili")
@@ -321,7 +321,7 @@ def tur_secimi_ekrani():
     secim_frame = tk.Frame(root, bg="#34495e", bd=5)
     secim_frame.pack(pady=20, padx=20, fill="both", expand=True)
 
-    lbl = tk.Label(secim_frame, text="Tur seciniz (film/dizi):", font=("Arial", 14), bg="#34495e", fg="#ecf0f1")
+    lbl = tk.Label(secim_frame, text="Tur seciniz (film/dizi):", font=("Arial", 14), bg="#34495e", fg="#ffffff")
     lbl.pack(pady=20)
 
     tur_combobox = ttk.Combobox(secim_frame, values=["film", "dizi"], font=("Arial", 12), state="readonly")
@@ -358,7 +358,7 @@ def film_dizi_listele(secili_tur):
     arama_frame = tk.Frame(liste_frame, bg="#34495e")
     arama_frame.pack(side="top", fill="x", padx=5, pady=5)
 
-    tk.Label(arama_frame, text="Arama:", font=("Arial", 12), bg="#34495e", fg="#ecf0f1").pack(side="left", padx=5)
+    tk.Label(arama_frame, text="Arama:", font=("Arial", 12), bg="#34495e", fg="#ffffff").pack(side="left", padx=5)
     arama_entry = ttk.Entry(arama_frame, font=("Arial", 12))
     arama_entry.pack(side="left", padx=5)
 
